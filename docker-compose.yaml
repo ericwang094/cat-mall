@@ -9,4 +9,4 @@ services:
       - "/mydata/mysql/data:/var/lib/mysql"
       - "/mydata/mysql/conf:/etc/mysql"
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: "root"
