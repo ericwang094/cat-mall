@@ -7,6 +7,6 @@ services:
     volumes:
       - "/mydata/mysql/log:/var/log/mysql"
       - "/mydata/mysql/data:/var/lib/mysql"
-      - "/mydata/mysql/conf:/etc/mysql"
+#      - "/mydata/mysql/conf:/etc/mysql"
     environment:
       MYSQL_ROOT_PASSWORD: "root"
